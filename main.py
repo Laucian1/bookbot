@@ -38,7 +38,7 @@ def prepare_report(char_dict):
         for i in dict_list:
               character = i.get("Character")
               number = i.get("number")
-              meat += f"The {character} character was found {number} times\n"
+              meat += f"The '{character}' character was found {number} times\n"
         return meat
 
 def sort_on(dict):
